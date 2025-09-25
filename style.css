@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#vantagens ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+#vantagens li {
+  background-color: #FF7F00;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#estagios .galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#estagios img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #007BFF;
+  border-radius: 10px;
+}
+
+#dados p {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+
+#dados .fonte {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+footer {
+  background-color: #FF7F00;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+}
